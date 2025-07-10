@@ -1,16 +1,11 @@
-package com.controlstatment;
+package com.stringoperation;
 
 public class Palindrome {
 	public static void main(String[] args) {
-		int num=121,temp=num,rev=0;
-		while(num!=0) {
-			rev=rev*10+num%10;
-					num/=10;
-		}
-		if(temp==rev)
-			System.out.println("Palindrome");
-		else
-			System.out.println("Not Palindrom");
+		String str="lol";
+		String rev=new StringBuilder(str).reverse().toString();
+		System.out.println(str.equals(rev));
+		
 	}
 
 }
