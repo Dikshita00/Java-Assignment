@@ -1,4 +1,4 @@
-package com.variables;
+package com.methods;
 
 public class MethodArgument {
 	
@@ -37,3 +37,4 @@ public class MethodArgument {
 	
 
 }
+
