@@ -1,12 +1,14 @@
-package com.variables;
+package com.thiskeyword;
 
 public class B {
+	B(int x){
+		System.out.println(x);
+	}
+	B(){
+		this(100); //we can also pass value through this() keyword
+	}
 	public static void main(String[] args) {
-		B b1=null;
-		B b2=new B();
-		
-		System.out.println(b1);
-		System.out.println(b2);
+		B b1=new B();
 	}
 
 }
