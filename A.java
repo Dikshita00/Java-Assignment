@@ -1,17 +1,14 @@
-package com.thiskeyword;
-// this() keyword is use to call constructor
+package com.accessspecifiers;
+
 public class A {
-	A(){
-		System.out.println("A");
+	protected int x=900;
+	protected void test() {
+		System.out.println(800);
 	}
-	A(int x){
-		this();
-	}
-	/* public void test() {
-		this();// we cannot call constructor from method
-	} */
 	public static void main(String[] args) {
-		A a1=new A(100);
+		A a1=new A();
+		a1.test();
+		System.out.println(a1.x);
 	}
 
 }

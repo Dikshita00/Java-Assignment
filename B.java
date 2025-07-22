@@ -1,14 +1,9 @@
-package com.thiskeyword;
+package com.accessspecifiers;
 
-public class B {
-	B(int x){
-		System.out.println(x);
-	}
-	B(){
-		this(100); //we can also pass value through this() keyword
-	}
+public class B extends Z {
 	public static void main(String[] args) {
-		B b1=new B();
+		Z a1=new Z();
+		a1.test();//error
+		System.out.println(a1.x);// private variable from another class
 	}
-
 }
