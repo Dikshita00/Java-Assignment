@@ -1,11 +1,20 @@
-package com.tcs.auth;
+package com.multipleinheritance;
 
-import com.tcs.service.EmailService;
+public class MainClass implements FirstInterfacce , SecondInterface {
 
-public class MainClass {
+	@Override
+	public void test1() {
+		System.out.println("This Is From SecondInterface");
+	}
+
+	@Override
+	public void test() {
+		System.out.println("This Is From FirstInterface ");
+	}
 	public static void main(String[] args) {
-		EmailService es = new EmailService();
-		es.sendEmail();
+		MainClass mc=new MainClass();
+		mc.test();
+		mc.test1();
 	}
 
 }
