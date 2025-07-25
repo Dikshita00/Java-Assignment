@@ -1,11 +1,9 @@
-package com.accessspecifiers;
+package com.abstraction;
 
-public class C extends D {
+public class C {
 	public static void main(String[] args) {
-		C c1=new C();
-		c1.test();
-		System.out.println(c1.x);
-		
+		System.out.println(B.MAX_VAL);
+		System.out.println(B.MIN_VAL);
 	}
 
 }

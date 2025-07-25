@@ -1,9 +1,13 @@
-package com.accessspecifiers;
+package com.abstraction;
+//All variable in the given program are final and static
+//Hence initialization is mandatory
+//interface are always created public or default
+// class to class---> extends
+// interface to interface---> extends
+// interface to class---> implements
 
-public class B extends Z {
-	public static void main(String[] args) {
-		Z a1=new Z();
-		a1.test();//error
-		System.out.println(a1.x);// private variable from another class
-	}
+public interface B {
+	int MAX_VAL=100;
+	static final int MIN_VAL=200;
+
 }
