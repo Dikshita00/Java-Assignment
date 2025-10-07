@@ -31,9 +31,5 @@ public class Player {
 		this.speciality=speciality;
 	}
 	
-	@Override
-	public String toString() {
-		return "Player [pid="+pid +", pname="+pname+", speciality="+speciality+"]";
-		
-	}
 }
+	

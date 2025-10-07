@@ -13,14 +13,13 @@ public class TeamService {
 		plst[2]=new Player(13,"Hardik Pandya","Allrounder");
 		Player c=new Player(11,"Rohit Sharma","Batsman");
 		tarr[0]=new Team(101,"MI",c,plst,3);
-		
+
 		Player[] plst1= new Player[15];
 		plst1[0]=new Player(16,"Dravid","Batsman");
 		plst1[1]=new Player(17,"Saurabh","Batsman");
 		plst1[2]=new Player(18,"Sachin","Allrounder");
 		Player c1=new Player(11,"Sachin","Allrounder");
 		tarr[1]=new Team(100,"RCB",c1,plst1,3);
-		
 		cnt=2;
 		
 	}
@@ -123,5 +122,4 @@ public class TeamService {
 		}
 		return null;
 	}
-
 }
