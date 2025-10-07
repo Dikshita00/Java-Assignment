@@ -1,6 +1,9 @@
-package com.multipleinheritance;
+package com.day7.beans;
 
-public interface A {
-	public void tesr();
+public class A {
+	private int x;
+	public final void test() {
+		System.out.println("Inside test() of class A");
+	}
 
 }
