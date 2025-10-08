@@ -1,7 +1,8 @@
-package com.day7.interfaces;
+package com.day7.beans;
 
 public interface I2 {
-	void m2(int x);
+
 	void m3();
+	
 
 }

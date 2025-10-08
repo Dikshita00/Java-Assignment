@@ -1,6 +1,6 @@
 package com.day7.beans;
 
-public class MyClass implements I1,I2{
+public class MyClass implements I1,I2, com.day7.interfaces.I1{
 	@Override
 	public void m1() {
 		System.out.println("in m1 method");
